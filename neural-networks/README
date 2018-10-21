@@ -1,0 +1,28 @@
+------------------------------------------------------------------------
+these programs are created using python without using any deep learning
+libraries.
+
+	simple_CatVsNonCat_classification.py
+	------------------------------------
+		data_prep.py--> prepares image data to feed to the 
+				model. various steps and data created
+				from the program is mentioned in the
+				code file.
+
+		model.py -->	this is the main program which does the
+				classification using logistic regression
+				steps taken are:
+				getting input
+				initialize weights and biases
+				initialize an activation function(sigmoid)
+				implement propagation(forward and back)
+				implement optimizer to minimize cost of params
+				predict method to measure accuracy.
+		at the end program ask to feed in a picture which it will classify
+		as either a cat or non cat.
+	
+	this model works extremely well on training data and extremely poor on test
+	which is due to small training size and only one layer in the network. I will
+	be working to enhance it using regularization and adding more layers to the network
+	also by deploying other means of classification techniques.
+
