@@ -22,7 +22,8 @@ libraries.
 		as either a cat or non cat.
 	
 	this model works extremely well on training data and extremely poor on test
-	which is due to small training size and only one layer in the network. I will
-	be working to enhance it using regularization and adding more layers to the network
-	also by deploying other means of classification techniques.
+	which is due to small training size and sigmoid activation. which is quite
+	good as for logistic regression I will be working to enhance it using 
+	regularization and adding more layers to the network also by deploying other
+	means of classification techniques.
 
